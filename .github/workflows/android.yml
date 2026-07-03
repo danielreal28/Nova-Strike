@@ -19,6 +19,8 @@ jobs:
 
     - name: Build with Gradle
       run: |
+        npm install
+        npx cap add android
         cd android
         chmod +x gradlew
         ./gradlew assembleDebug
