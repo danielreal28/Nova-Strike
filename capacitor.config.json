@@ -1,0 +1,8 @@
+{
+  "appId": "com.danielreal28.novastrik",
+  "appName": "Nova Strik",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
